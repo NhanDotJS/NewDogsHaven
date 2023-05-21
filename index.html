@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DogsHaven</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <div class="navigation" id="navbar">
+      <ul>
+        <li class="title" style="float: left">DogsHaven</li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="responsiveNav()">
+            <i class="fa fa-bars" id="hamburger"></i>
+          </a>
+        </li>
+        <li><a class="highlight active" href="./login.html">Log In</a></li>
+        <li><a href="./booking.html">Book Now</a></li>
+        <li><a href="./reviews.html">Reviews</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a class="active" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="./dog1.png" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./dog2.png" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./dog3.png" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        <div class="text">
+          "A Paw-sitively <br />Fun Place For <br />
+          Your Companion"
+        </div>
+      </div>
+      <br />
+
+      <h1 class="page-title">What customers say about us</h1>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title" style="margin-top: 2px">Uncle Phil</div>
+          <div
+            class="card-text"
+            style="text-align: center; font-size: 1.5rem; padding-bottom: 5px"
+          >
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+          </div>
+          <div class="card-text" style="padding: 10px 0">
+            I've been taking my dog to this daycare for a few months now and I'm
+            really happy with it. The staff is friendly and attentive, and my
+            dog always seems to have a great time. I would definitely recommend
+            this daycare to anyone looking for a safe and fun place for their
+            dog to stay
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title" style="margin-top: 2px">Neo</div>
+          <div
+            class="card-text"
+            style="text-align: center; font-size: 1.5rem; padding-bottom: 5px"
+          >
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="card-text" style="padding: 10px 0">
+            I was really nervous about leaving my dog at daycare for the first
+            time, but the staff at this place put me at ease right away. They
+            were so friendly and knowledgeable, and they took great care of my
+            dog. I would definitely recommend this daycare to anyone looking for
+            a great place for their dog to stay
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title" style="margin-top: 2px">Uncle Sam</div>
+          <div
+            class="card-text"
+            style="text-align: center; font-size: 1.5rem; padding-bottom: 5px"
+          >
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+          </div>
+          <div class="card-text" style="padding: 10px 0">
+            I was very nervous since the team have mugshot type pictures but
+            after reading the review, I am more confident in leaving my dog with
+            them. And I was right! My dog was very happy and I was very happy
+            with the service. I will definitely be using them again.
+          </div>
+        </div>
+      </div>
+      <h1 class="page-title">The Video</h1>
+      <div class="iframecontainer">
+        <iframe
+          class="responsive-iframe"
+          src="https://www.youtube.com/embed/QaB6CfJ4Me4"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <a href="./sitemap.html" style="padding-top: 30px">Site Map</a>
+    </div>
+  </body>
+</html>

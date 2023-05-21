@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>New Booking</title>
+  </head>
+  <body>
+    <div class="navigation" id="navbar">
+      <ul>
+        <li class="title" style="float: left">DogsHaven</li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="responsiveNav()">
+            <i class="fa fa-bars" id="hamburger"></i>
+          </a>
+        </li>
+        <li><a class="highlight" href="./login.html">Log In</a></li>
+        <li><a class="active" href="./booking.html">Book Now</a></li>
+        <li><a href="./reviews.html">Reviews</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="popupbox">
+        <form action="./manage-bookings.html">
+          <h1>New Booking</h1>
+          <div class="abox">
+            <div class="dropdown">
+              <label for="date">Choose a date: </label>
+              <input type="date" id="date" required />
+            </div>
+            <div class="dropdown">
+              <label for="location">Choose a location: </label>
+
+              <select name="location" id="location" required>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Darling Point">Darling Point</option>
+                <option value="Hornsby">Hornsby</option>
+                <option value="Parramatta">Parramatta</option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <label for="dog">Choose a dog: </label>
+
+              <select name="dog" id="dog" required>
+                <option value="Alexandria">Yellow Shepherd Dog</option>
+                <option value="Darling Point">Orage Alaskan Dog</option>
+                <option value="Hornsby">Teal BullDog</option>
+                <option value="Parramatta">
+                  Just General Looking Long Dog
+                </option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <label for="dog">Choose a plan: </label>
+
+              <select name="dog" id="dog" required>
+                <option value="Basic">Basic Plan</option>
+                <option value="Premium">Premium Plan</option>
+                <option value="Ultimate">Ultimate Plan</option>
+              </select>
+            </div>
+          </div>
+          <button class="submit">Make A Booking</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

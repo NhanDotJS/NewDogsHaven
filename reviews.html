@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+    <script src="./reviews.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Reviews</title>
+  </head>
+  <body>
+    <div class="navigation" id="navbar">
+      <ul>
+        <li class="title" style="float: left">DogsHaven</li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="responsiveNav()">
+            <i class="fa fa-bars" id="hamburger"></i>
+          </a>
+        </li>
+        <li><a class="highlight active" href="./login.html">Log In</a></li>
+        <li><a href="./booking.html">Book Now</a></li>
+        <li><a class="active" href="./reviews.html">Reviews</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1 class="page-title">Reviews</h1>
+      <p class="subtitle">Write a review</p>
+      <div class="outlined-box">
+        <!--<div class="outlined-box-title">Write a review</div>-->
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star" onclick="changeStars(1)"></i>
+          <i class="fa fa-star" onclick="changeStars(2)"></i>
+          <i class="fa fa-star" onclick="changeStars(3)"></i>
+          <i class="fa fa-star" onclick="changeStars(4)"></i>
+          <i class="fa fa-star" onclick="changeStars(5)"></i>
+        </div>
+        <textarea
+          class="write-review"
+          placeholder="Write review here"
+          rows="8"
+        ></textarea>
+        <div class="card-link"><a href="">Post Review</a></div>
+      </div>
+
+      <p class="subtitle">Other users' reviews</p>
+      <div class="outlined-box">
+        <b>Uncle Phil</b>
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+        </div>
+        <p>
+          "I've been taking my dog to this daycare for a few months now and I'm
+          really happy with it. The staff is friendly and attentive, and my dog
+          always seems to have a great time. I would definitely recommend this
+          daycare to anyone looking for a safe and fun place for their dog to
+          stay."
+        </p>
+      </div>
+      <div class="outlined-box">
+        <b>Neo</b>
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>
+          "I was really nervous about leaving my dog at daycare for the first
+          time, but the staff at this place put me at ease right away. They were
+          so friendly and knowledgeable, and they took great care of my dog. I
+          would definitely recommend this daycare to anyone looking for a great
+          place for their dog to stay."
+        </p>
+      </div>
+
+      <div class="outlined-box">
+        <b>Uncle Sam</b>
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+        </div>
+        I was very nervous since the team have mugshot type pictures but after
+        reading the review, I am more confident in leaving my dog with them. And
+        I was right! My dog was very happy and I was very happy with the
+        service. I will definitely be using them again.
+      </div>
+      <div class="outlined-box">
+        <b>Jardani Jovonovich</b>
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>
+          "I'm so glad I found this daycare! My dog loves it here and I feel so
+          much better knowing that she's in such good hands. The staff is
+          amazing and they always go above and beyond to make sure my dog is
+          happy and comfortable. I would definitely recommend this daycare to
+          anyone looking for a great place for their dog to stay."
+        </p>
+      </div>
+      <div class="outlined-box">
+        <b>Marty McFly</b>
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+        </div>
+        <p>
+          "I was really hesitant to leave my dog at daycare for the first time,
+          but I'm so glad I did! The staff is amazing and they take such great
+          care of my dog. She always comes home tired and happy, and I can tell
+          she's had a great time. I would definitely recommend this daycare to
+          anyone looking for a safe and fun place for their dog to stay."
+        </p>
+      </div>
+      <div class="outlined-box">
+        <b>Tony Montana</b>
+        <div class="star-rating" id="star-rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+        </div>
+        <p>
+          "I was really nervous about leaving my dog at daycare for the first
+          time, but I was pleasantly surprised by how much he loved it! The
+          staff was so friendly and attentive, and they made sure to introduce
+          themselves to me and my dog before they let him out to play. They also
+          took the time to explain the different play areas and activities that
+          were available, and they made sure to keep an eye on him the whole
+          time. My dog came home exhausted and happy, and I could tell he had
+          had a great time. He was wagging his tail and licking my face, and he
+          couldn't wait to tell me all about his day. I would definitely
+          recommend this daycare to anyone who is looking for a safe and fun
+          place for their dog to stay."
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

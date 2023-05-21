@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Account Manager</title>
+  </head>
+  <body>
+    <div class="navigation" id="navbar">
+      <ul>
+        <li class="title" style="float: left">DogsHaven</li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="responsiveNav()">
+            <i class="fa fa-bars" id="hamburger"></i>
+          </a>
+        </li>
+        <li><a class="highlight active" href="./login.html">Log Out</a></li>
+        <li><a href="./booking.html">Book Now</a></li>
+        <li><a href="./reviews.html">Reviews</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1 class="page-title">Manage Your Bookings</h1>
+      <div class="account-manager">
+        <div class="account-details">
+          <div class="card-picture">
+            <img
+              src="https://img.freepik.com/premium-photo/handsome-confident-blond-bearded-businessman-with-hands-pockets-smiling-joyfully-give-professional-vibe-discussing-business-double-his-income-become-successful-white-background_1258-5820.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-title"><h3>Average Dog Haver</h3></div>
+          <div class="card-text">
+            <h2>Dogs:</h2>
+            <ul>
+              <li>Yellow Shepherd Dog</li>
+              <li>Orage Alaskan Dog</li>
+              <li>Teal BullDog</li>
+              <li>Just General Looking Long Dog</li>
+            </ul>
+          </div>
+        </div>
+        <div class="manage-bookings">
+          <a href="./booking.html" class="button">
+            <i class="fa fa-plus" aria-hidden="true"></i> Create Booking
+          </a>
+          <div class="bookings">
+            <div class="booking">
+              <p>
+                <b>Date:</b> 08/05/2023<br />
+                <b>Location:</b> 124 Conch Street Bikini Bottom, Pacific Ocean
+                00001 (Alexandria)<br />
+                <b>Dog: </b>Just General Looking Long Dog
+              </p>
+              <button class="delete">Delete Booking</button>
+              <button class="edit">Edit Booking</button>
+            </div>
+            <div class="booking">
+              <p>
+                <b>Date:</b> 19/05/2023<br />
+                <b>Location:</b> 742 Evergreen Terrace Springfield, USA 09876
+                (Darling Point)<br />
+                <b>Dog:</b> Teal BullDog
+              </p>
+              <button class="delete">Delete Booking</button>
+              <button class="edit">Edit Booking</button>
+            </div>
+            <div class="booking">
+              <p>
+                <b>Date:</b> 28/05/2023<br />
+                <b>Location:</b> 123 Sesame Street New York, NY 10019 (Hornsby)
+                <br />
+                <b>Dog: </b>Orage Alaskan Dog
+              </p>
+              <button class="delete">Delete Booking</button>
+              <button class="edit">Edit Booking</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

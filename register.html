@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="navigation" id="navbar">
+      <ul>
+        <li class="title" style="float: left">DogsHaven</li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="responsiveNav()">
+            <i class="fa fa-bars" id="hamburger"></i>
+          </a>
+        </li>
+        <li><a class="highlight active" href="./login.html">Log In</a></li>
+        <li><a href="./booking.html">Book Now</a></li>
+        <li><a href="./reviews.html">Reviews</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="popupbox">
+        <form action="./manage-bookings.html">
+          <h1>Register</h1>
+          <div class="inputbox">
+            <input type="text" required />
+            <label for="">Name</label>
+          </div>
+          <div class="inputbox">
+            <input type="email" required />
+            <label for="">Email</label>
+          </div>
+          <div class="inputbox">
+            <input type="password" required />
+            <label for="">Password</label>
+          </div>
+          <div class="inputbox">
+            <input type="password" required />
+            <label for="">Confirm Password</label>
+          </div>
+          <p style="padding-bottom: 20px">
+            By creating an account you <br />
+            agree to our
+            <a
+              href="./privacypolicy.html"
+              style="text-decoration: none; color: #03045e; font-weight: 600"
+              >Privacy Policy</a
+            >
+          </p>
+
+          <button class="submit">Create Account</button>
+          <div class="register">
+            <p>
+              Already have an account? <a href="./login.html">Log In</a> instead
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
